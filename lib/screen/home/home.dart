@@ -3,7 +3,7 @@ import 'package:sitema_chapas/common/drawer/custom_drawer.dart';
 
 class Home extends StatelessWidget {
   final PageController pageController = PageController();
-
+  final _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     return PageView(
@@ -26,6 +26,7 @@ class Home extends StatelessWidget {
           ),
           color: Colors.amber,
         ),
+        //
       ],
     );
   }
